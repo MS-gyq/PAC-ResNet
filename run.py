@@ -2,6 +2,7 @@ from torch.utils.data import random_split
 from torch.utils.data import DataLoader
 from data_loader import pxCountDatasetV2
 from model import PAC_ResNet
+from exp import run_model
 
 
 seed_everything(2025)  # 设置随机种子
