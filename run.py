@@ -3,6 +3,7 @@ from torch.utils.data import DataLoader
 from data_loader import pxCountDatasetV2
 from model import PAC_ResNet
 from exp import run_model
+from utils import seed_everything
 
 
 seed_everything(2025)  # 设置随机种子
