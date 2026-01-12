@@ -1,7 +1,7 @@
 # PAC-ResNet
 The core implementation of PAC-ResNet
 
-## Environment
+## ⚙️ Environment
 
 The code was developed and tested with the following environment:
 
