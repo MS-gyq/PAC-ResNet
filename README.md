@@ -1,5 +1,6 @@
-# PAC-ResNet
-The core implementation of PAC-ResNet
+# [Predicting Crowd Distribution Using Mobile Signaling Data: An Enhanced Spatiotemporal Neural Network Combining Environmental Dependencies] - Core Implementation
+> 📌 This repository contains the core code for the paper "[Predicting Crowd Distribution Using Mobile Signaling Data: An Enhanced Spatiotemporal Neural Network Combining Environmental Dependencies]".  
+> The implementation is based on PyTorch and designed for reproducibility.
 
 ## ⚙️ Environment
 
