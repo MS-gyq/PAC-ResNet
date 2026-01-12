@@ -10,3 +10,10 @@ The code was developed and tested with the following environment:
 - CUDA Toolkit 11.8
 - pandas 2.0.3
 - numpy 1.24.3
+
+## ▶️ Run the Code
+
+To run the main script:
+
+```bash
+python run.py
