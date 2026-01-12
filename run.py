@@ -1,15 +1,9 @@
 from torch.utils.data import random_split
+from data_loader import pxCountDatasetV2
 
-def seed_everything(seed=666):
-    random.seed(seed)
-    os.environ['PYTHONHASHSEED'] = str(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    torch.backends.cudnn.deterministic = True
-    np.random.seed(seed)
-seed_everything(2025)
+seed_everything(2025)  # 设置随机种子
 
+#================数据加载==================
 train_dataset, test_dataset = dataset[:-480], dataset[-480:]
 
 train_dataset, val_dataset = random_split(train_dataset, [int(len(train_dataset)*0.9),
