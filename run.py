@@ -8,6 +8,7 @@ from exp import run_model
 seed_everything(2025)  # 设置随机种子
 
 #================数据加载==================
+dataset = PxCountDatasetv2(path="./data/all", seq=seq, grid_size=(18, 22), time_interval="30min", force_rebuild=True)
 train_dataset, test_dataset = dataset[:-480], dataset[-480:]
 
 train_dataset, val_dataset = random_split(train_dataset, [int(len(train_dataset)*0.9),
